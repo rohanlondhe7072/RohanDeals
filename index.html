@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <meta name="description" content="Rohan Deals - Handpicked products, trending finds and smart shopping ideas. Discover deals on home, electronics, fashion, beauty and gadgets.">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Rohan Deals">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Rohan Deals | Discover Great Deals & Smart Finds">
+  <meta property="og:description" content="Handpicked products, trending finds and smart shopping ideas.">
+  <title>Rohan Deals | Discover Great Deals & Smart Finds</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect fill='%23f59e0b' width='32' height='32' rx='6'/><text x='50%' y='50%' font-size='18' font-weight='bold' fill='white' text-anchor='middle' dominant-baseline='middle'>RD</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="products.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a class="brand" href="#home" aria-label="Rohan Deals home">
+          <img class="brand-logo" src="Rohan_Deals.png" alt="Rohan Deals" width="48" height="48">
+          <span class="brand-text">Rohan Deals</span>
+        </a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" data-nav-toggle aria-label="Toggle navigation menu">
+          <span class="sr-only">Menu</span>
+          <span aria-hidden="true">☰</span>
+        </button>
+
+        <div class="nav-links" id="primary-navigation" data-nav-links>
+          <a href="#home">Home</a>
+          <a href="#deals">Deals</a>
+          <a href="#categories">Categories</a>
+          <a href="#about">About</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" id="home">
+  <div class="container hero-grid">
+
+    <div class="hero-copy">
+      <div class="hero-pill">🔥 Latest Deal</div>
+
+      <h1>Discover Great Deals &amp; Smart Finds</h1>
+
+      <p>
+        Handpicked products, useful finds and interesting deals — all in one place.
+      </p>
+
+      <div class="hero-actions">
+        <a class="button button-primary" href="#deals">
+          Explore Deals
+        </a>
+
+        <a class="button button-secondary" href="#categories">
+          Browse Categories
+        </a>
+      </div>
+    </div>
+
+    <!-- Latest product will automatically appear here -->
+    <div data-hero-product></div>
+
+  </div>
+</section>
+
+    <section class="section" id="deals">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Featured Deal</h2>
+          <p class="section-subtitle">A highlighted product card with clear pricing and an easy-to-replace affiliate link.</p>
+        </div>
+
+        <div class="featured-wrap">
+          <!-- Featured product will be rendered here from products array -->
+          <div data-featured></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="filters">
+      <div class="container">
+        <div class="filters-bar">
+          <label for="search" class="sr-only">Search deals</label>
+          <input id="search" class="search-input" type="search" placeholder="Search deals..." aria-label="Search deals" />
+
+          <div class="category-filters" data-category-filters aria-label="Category filters" role="toolbar"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="latest-deals-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="latest-deals-title">Latest Deals</h2>
+          <p class="section-subtitle">Curated products with transparent pricing and easy links to Amazon.</p>
+        </div>
+
+        <div class="grid-6" data-deals-grid role="list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="categories">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Categories</h2>
+          <p class="section-subtitle">Quick category buttons for mobile-friendly browsing from social media traffic.</p>
+        </div>
+
+        <div class="category-grid">
+          <button class="category-card" type="button" data-category="Home &amp; Kitchen">Home &amp; Kitchen</button>
+          <button class="category-card" type="button" data-category="Electronics">Electronics</button>
+          <button class="category-card" type="button" data-category="Fashion">Fashion</button>
+          <button class="category-card" type="button" data-category="Beauty">Beauty</button>
+          <button class="category-card" type="button" data-category="Gadgets">Gadgets</button>
+          <button class="category-card" type="button" data-category="Other Deals">Other Deals</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="why-title">Why Rohan Deals</h2>
+          <p class="section-subtitle">Short, trustworthy messaging that matches a clean affiliate brand.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>🛍️ Handpicked Products</h3>
+            <p>Curated items chosen for value, usefulness, and everyday appeal.</p>
+          </article>
+          <article class="feature-card">
+            <h3>🔥 Trending Deals</h3>
+            <p>Fresh finds designed to fit fast-moving Instagram and Pinterest traffic.</p>
+          </article>
+          <article class="feature-card">
+            <h3>💰 Smart Shopping</h3>
+            <p>Clear pricing and simple details to help users make confident decisions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="disclosure-title">
+      <div class="container">
+        <div class="disclosure-box">
+          <h3 id="disclosure-title">Affiliate Disclosure:</h3>
+          <p class="disclosure-copy">Some links on Rohan Deals are affiliate links. If you purchase through these links, we may earn a small commission at no additional cost to you.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about-card">
+          <div class="about-graphic" aria-hidden="true">
+            <svg viewBox="0 0 320 220" role="img" aria-label="Decorative shopping graphic">
+              <defs>
+                <linearGradient id="aboutAccent" x1="0" x2="1" y1="0" y2="1">
+                  <stop offset="0%" stop-color="#f59e0b"/>
+                  <stop offset="100%" stop-color="#fbbf24"/>
+                </linearGradient>
+              </defs>
+              <rect x="18" y="18" width="284" height="184" rx="28" fill="#ffffff" stroke="#e5e7eb"/>
+              <circle cx="242" cy="64" r="42" fill="#f59e0b" opacity="0.15"/>
+              <path d="M98 56h124l-14 74H112z" fill="#f8fafc" stroke="#e5e7eb"/>
+              <path d="M114 56c0-22 18-40 40-40h12c22 0 40 18 40 40" fill="none" stroke="url(#aboutAccent)" stroke-width="12" stroke-linecap="round"/>
+              <rect x="80" y="142" width="160" height="18" rx="9" fill="#e2e8f0"/>
+              <rect x="80" y="170" width="120" height="18" rx="9" fill="#e2e8f0"/>
+              <circle cx="240" cy="150" r="20" fill="url(#aboutAccent)"/>
+            </svg>
+          </div>
+          <div class="about-copy">
+            <h3>About Rohan Deals</h3>
+            <p>Rohan Deals helps you discover useful products, trending finds and interesting deals from online marketplaces.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 class="footer-title">Rohan Deals</h3>
+          <p class="footer-copy">A clean affiliate showcase for curated products, simple deal browsing, and quick shopping discovery.</p>
+        </div>
+
+        <nav aria-label="Footer navigation">
+          <h3 class="footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#deals">Deals</a></li>
+            <li><a href="#categories">Categories</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h3 class="footer-title">Follow Us</h3>
+          <ul class="social-links">
+            <li><a class="link-muted" href="https://instagram.com/rohan_deals26" target="_blank" rel="noopener noreferrer external" aria-label="Visit our Instagram">Instagram</a></li>
+            <li><a class="link-muted" href="#" data-pinterest="placeholder" target="_blank" rel="noopener noreferrer external" aria-label="Visit our Pinterest">Pinterest (placeholder)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>Affiliate Disclosure: Some links on Rohan Deals are affiliate links.</span>
+        <span>© 2026 Rohan Deals. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
