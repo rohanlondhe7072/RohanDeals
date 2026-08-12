@@ -137,38 +137,38 @@ const products = [
     dateAdded: "2026-08-12"
   },
 
-  {
-  id: 11,
-  name: "FASHOR Women's Kurta Set",
-  category: "Fashion",
-  description: "Elegant lime green women's kurta set from FASHOR, featuring an ethnic design with a matching dupatta. A stylish choice for festive occasions, family gatherings and traditional everyday wear.",
-  image: "images/fashor-lime-green-womens-kurta-set.jpg",
-  price: "₹2,399",
-  originalPrice: "₹5,899",
-  discount: "59% OFF",
-  affiliateLink: "https://link.amazon/B0dHxmola",
-  brand: "FASHOR",
-  colour: "Lime Green",
-  productType: "Women's Kurta Set",
-  tags: [
-    "Women's Fashion",
-    "Kurta Set",
-    "Ethnic Wear",
-    "Indian Wear",
-    "FASHOR",
-    "Lime Green",
-    "Women's Clothing",
-    "Festive Wear"
-  ],
-  features: [
-    "Lime green colour",
-    "Ethnic-inspired design",
-    "Women's kurta set",
-    "Includes matching dupatta",
-    "Suitable for festive and traditional occasions"
-  ],
-  createdAt: "2026-08-12T20:50:00+05:30",
-  dateAdded: "2026-08-12"
-}
+//   {
+//   id: 11,
+//   name: "FASHOR Women's Kurta Set",
+//   category: "Fashion",
+//   description: "Elegant lime green women's kurta set from FASHOR, featuring an ethnic design with a matching dupatta. A stylish choice for festive occasions, family gatherings and traditional everyday wear.",
+//   image: "images/fashor-lime-green-womens-kurta-set.jpg",
+//   price: "₹2,399",
+//   originalPrice: "₹5,899",
+//   discount: "59% OFF",
+//   affiliateLink: "https://link.amazon/B0dHxmola",
+//   brand: "FASHOR",
+//   colour: "Lime Green",
+//   productType: "Women's Kurta Set",
+//   tags: [
+//     "Women's Fashion",
+//     "Kurta Set",
+//     "Ethnic Wear",
+//     "Indian Wear",
+//     "FASHOR",
+//     "Lime Green",
+//     "Women's Clothing",
+//     "Festive Wear"
+//   ],
+//   features: [
+//     "Lime green colour",
+//     "Ethnic-inspired design",
+//     "Women's kurta set",
+//     "Includes matching dupatta",
+//     "Suitable for festive and traditional occasions"
+//   ],
+//   createdAt: "2026-08-12T20:50:00+05:30",
+//   dateAdded: "2026-08-12"
+// }
 ];
 
