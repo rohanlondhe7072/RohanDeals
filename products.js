@@ -169,6 +169,40 @@ const products = [
   ],
   createdAt: "2026-08-12T20:50:00+05:30",
   dateAdded: "2026-08-12"
+},
+
+{
+  id: 12,
+  name: "FASHOR Solid Embroidered Straight Kurta with Pant & Colorblocked Dupatta - Pink",
+  category: "Fashion",
+  description: "Elegant pink FASHOR women's ethnic wear set featuring a solid embroidered straight kurta paired with matching pants and a contrasting colorblocked dupatta. A stylish choice for festive occasions, family gatherings and traditional wear.",
+  image: "images/fashor-pink-embroidered-kurta-pant-dupatta.jpg",
+  price: "₹2,189",
+  originalPrice: "₹7,399",
+  discount: "70% OFF",
+  affiliateLink: "https://link.amazon/B06EyO8dy",
+  brand: "FASHOR",
+  colour: "Pink",
+  productType: "Women's Kurta Set",
+  tags: [
+    "Women's Fashion",
+    "Kurta Set",
+    "Ethnic Wear",
+    "Indian Wear",
+    "FASHOR",
+    "Pink Kurta",
+    "Festive Wear",
+    "Embroidered Kurta"
+  ],
+  features: [
+    "Solid embroidered straight kurta",
+    "Matching pants",
+    "Colorblocked dupatta",
+    "Pink colour",
+    "Suitable for festive and traditional occasions"
+  ],
+  createdAt: "2026-08-13T10:48:00+05:30",
+  dateAdded: "2026-08-13"
 }
 ];
 
